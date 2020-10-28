@@ -5,6 +5,8 @@ let SCENE_W = 2500; //the size of the whole scene
 let SCENE_H = 2500;
 let boxa,boxb,boxc,boxd,boxe,boxf,boxg,boxh,boxi,boxj,boxk,boxl,boxm,noo,never,whore,nobody,vain,freak,youmup,aweirdo,you,everyone;
 let stopv,resources;
+let videoframe;
+
 
 function preload() {
     bg = createSprite(800,800,1600,1600);
@@ -91,7 +93,7 @@ function setup() {
     nobody.setCollider('rectangle',0,0,170,101);
     
     vain = createSprite(745,1209,213,86);
-    vain.addImage(loadImage('assets/VAIN.png'));
+    vain.addImage(loadImage('assets/vain.png'));
     vain.setCollider('rectangle',0,0,213,86);
     
     freak = createSprite(1010,813,448,113);

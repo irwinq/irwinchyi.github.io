@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    background: black;
+}
+canvas {
+  display: block;
+}
+
+#wrapper {
+  width: 50%;     
+  margin: 0 auto; 
+}
+
+#imgs {
+    margin: 0 auto;
+}
+
+#click {
+    margin: 0 20vw;
+}
