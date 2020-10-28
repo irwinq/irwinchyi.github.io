@@ -91,7 +91,7 @@ function setup() {
     nobody.setCollider('rectangle',0,0,170,101);
     
     vain = createSprite(745,1209,213,86);
-    vain.addImage(loadImage('assets/vain.png'));
+    vain.addImage(loadImage('assets/VAIN.png'));
     vain.setCollider('rectangle',0,0,213,86);
     
     freak = createSprite(1010,813,448,113);
